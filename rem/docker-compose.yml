@@ -1,0 +1,6 @@
+version: '3'
+services:
+  bot:
+    image: ghcr.io/johnmasayume/aoyuki/discord-bot-rem:latest
+    container_name: discord-bot-rem
+    restart: unless-stopped
