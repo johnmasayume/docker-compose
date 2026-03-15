@@ -1,5 +1,7 @@
 version: '3'
 services:
+  env_file:
+  - stack.env
   bot:
     image: ghcr.io/johnmasayume/discord-bot/discord-bot-rem:latest
     container_name: discord-bot-rem
