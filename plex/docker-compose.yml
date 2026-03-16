@@ -10,5 +10,5 @@ services:
       - VERSION=docker
     volumes:
       - "${HOME}/docker/plex/library:/config"
-      - "/mnt/truenas/plex/Songs/:/songs"
+      - /mnt/truenas/plex/Songs/:/songs
     restart: unless-stopped
